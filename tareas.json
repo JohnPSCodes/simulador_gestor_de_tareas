@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "descripcion": "Estudiar Python",
+    "completada": true,
+    "fecha_creacion": "2025-06-10T17:21:43.321443"
+  },
+  {
+    "id": 2,
+    "descripcion": "Leer Clean Code",
+    "completada": true,
+    "fecha_creacion": "2025-06-10T17:21:43.323000"
+  }
+]
