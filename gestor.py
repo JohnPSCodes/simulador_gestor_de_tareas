@@ -32,7 +32,7 @@ class GestorTareas():
 
     def guardar(self):
         try:
-            with open(self.archivo, 'w', encoding='utf=8') as f:
+            with open(self.archivo, 'w', encoding='utf-8') as f:
                 json.dump([t.to_dict() for t in self.tareas], f, indent=2)
         except IOError as e:
             print('Error guardando archivo: ', e)
@@ -41,7 +41,7 @@ class GestorTareas():
         if not os.path.exists(self.archivo):
             return
         try:
-            with open(self.archivo, 'r', encoding='utf=8') as f:
+            with open(self.archivo, 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 self.tareas = [Tarea.from_dict(d) for d in data]
                 if self.tareas:
