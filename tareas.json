@@ -1,14 +1,20 @@
 [
   {
     "id": 1,
-    "descripcion": "Estudiar Python",
+    "descripcion": "Run 5 miles",
     "completada": true,
-    "fecha_creacion": "2025-06-10T17:21:43.321443"
+    "fecha_creacion": "2025-06-11T16:38:56.701809"
   },
   {
     "id": 2,
-    "descripcion": "Leer Clean Code",
-    "completada": true,
-    "fecha_creacion": "2025-06-10T17:21:43.323000"
+    "descripcion": "Read a book (15 minutes)",
+    "completada": false,
+    "fecha_creacion": "2025-06-11T16:39:17.231238"
+  },
+  {
+    "id": 3,
+    "descripcion": "Get some work done",
+    "completada": false,
+    "fecha_creacion": "2025-06-11T16:39:37.414287"
   }
 ]
